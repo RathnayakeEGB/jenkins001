@@ -21,4 +21,9 @@ public class HelloWorldController {
 
         return "Hi Gihan Your Are a Truly Leader.............2";
     }
+    @GetMapping("/hello3")
+    public String getHelloworld23(){
+
+        return "Hi Gihan Your Are a Truly Leader.............23";
+    }
 }
