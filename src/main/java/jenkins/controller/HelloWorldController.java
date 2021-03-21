@@ -15,4 +15,10 @@ public class HelloWorldController {
 
         return "Hi Gihan Your Are a Truly Leader.............";
     }
+
+    @GetMapping("/hello2")
+    public String getHelloworld2(){
+
+        return "Hi Gihan Your Are a Truly Leader.............2";
+    }
 }
